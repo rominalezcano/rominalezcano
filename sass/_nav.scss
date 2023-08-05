@@ -1,0 +1,51 @@
+header{
+    background-color: pink;
+    height: 100px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: bolder;
+
+    nav{
+        a{
+            .logo {
+                    border: none;
+                    margin-left: 20px;
+                    padding: 10px;
+                    max-width: 128px;
+                    &:hover{
+                        transition: ease-in-out 0.3s;
+                        width: 300px;
+                        padding: 2px;
+                    }
+                }
+            }
+        }
+
+    ul{
+        li{
+        display: inline-block;
+        background-color: pink;
+        padding: 1%;
+        margin-left: 10%;
+        list-style-type: none;
+
+        }
+    }
+    
+    .nav-link{
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        font-family: 'Outfit', sans-serif;
+        font-weight: bold;
+    }
+
+    .nav-item {
+        border-radius: 30px;
+    }
+
+}
+
+
+
+
+
